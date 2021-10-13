@@ -27,6 +27,7 @@
   }
   
   .container {
+     
     color: rgb(112, 0, 0);
     margin: 0 auto;
     text-align: center;
@@ -43,15 +44,20 @@
   }
   
   li {
+      width: 8em;
+     
+      justify-content: center;
+      align-items: center;
     background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
       
     display: inline-block;
-    /*border: 2px solid red;*/
+    
     font-size: 2.5em;
     list-style-type: none;
     padding: 1em;
+   
     text-transform: uppercase;
   }
   
@@ -119,6 +125,23 @@ and (orientation : portrait) {
       }
       
 
+
+}
+
+@media (max-width:850px) 
+and (orientation : landscape) {
+    #headline {
+        font-size: 1.5em;
+      }
+      li {
+        font-size: 1.5em;
+        
+      }
+      
+      li span {
+        font-size: 1..5em;
+      }
+      
 
 }
 
