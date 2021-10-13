@@ -105,7 +105,7 @@ and (orientation : portrait) {
 
 }
 
-@media (max-width:400px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+@media (max-width:500px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     
     #headline {
         font-size: 1.5em;
